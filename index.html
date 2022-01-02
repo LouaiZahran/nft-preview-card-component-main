@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel = "stylesheet" href = "styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | NFT preview card component</title>
@@ -16,18 +16,24 @@
 </head>
 <body>
 
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+  <div id = "card">
+    <img src = "images\image-equilibrium.jpg" alt = "Cool Image" id = "EquilibriumImg">
+    <div id = "title">Equilibrium #3429</div>
+    <div id = "content">Our Equilibrium collection promotes balance and calm.</div>
+    <div>
+      <span><img src = "images\icon-ethereum.svg" alt = "Etherium Icon" id = "EtheriumImg"> 
+        <span id = "price">0.041 ETH</span>
+      </span>
+      <span id = "time">3 days left</span>
+    </div>
+    <div>
+      <span id = "artist"><img src = "images/image-avatar.png" alt = "Author's Image" id = "AuthorImg">Creation of Jules Wyvern</span>
+    </div>
+  </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Louai Zahran</a>.
+    Coded by <a href="https://www.linkedin.com/in/louai-zahran/" target="_blank">Louai Zahran</a>.
   </div>
 </body>
 </html>
